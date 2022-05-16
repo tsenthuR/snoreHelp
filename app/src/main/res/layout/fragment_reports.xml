@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="401dp"
+        android:layout_height="94dp"
+        android:gravity="center"
+        android:text="ANALYTICS REPORTS"
+        android:textColor="@color/black"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="401dp"
+        android:layout_height="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="545dp"
+        android:gravity="center"
+        android:text="Select custom range"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <CalendarView
+        android:id="@+id/cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="172dp"
+        android:background="@color/black"
+        android:onClick="btnCalendeClick" />
+
+    <Button
+        android:id="@+id/btn_report1next"
+        android:layout_width="184dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/button"
+        android:text="Apply Range" />
+
+
+</RelativeLayout>

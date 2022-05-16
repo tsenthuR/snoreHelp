@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.senthu.snorehelp">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SnoreHelp">
+        <activity
+            android:name=".DoctorChatCActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorinfoPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecordResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_ApoimentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SiginDproficActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sigupDeducaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SiginDprofaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_DActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DividerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Report2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DiagnosticTest5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DiagnosticTest4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DiagnosticTest3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DiagnosticTest2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DiagnosticTest1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MedicamentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HabitsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecorddingActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".LandddigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_CActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

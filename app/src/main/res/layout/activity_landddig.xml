@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandddigActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="303dp"
+        android:layout_height="146dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/et_Record"
+        android:layout_width="165dp"
+        android:layout_height="149dp"
+        android:background="@drawable/cicrclebg"
+
+        android:gravity="center"
+        android:text="Record"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:onClick="btnrecord"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <TextView
+        android:id="@+id/diagnosis"
+        android:layout_width="165dp"
+        android:layout_height="149dp"
+        android:background="@drawable/cicrclebg"
+        android:gravity="center"
+        android:text="Diagnosis"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:onClick="btndianoise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412" />
+
+    <TextView
+        android:id="@+id/habits"
+        android:layout_width="165dp"
+        android:layout_height="149dp"
+        android:background="@drawable/cicrclebg"
+        android:gravity="center"
+        android:text="Habits"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:onClick="btnhabits"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774" />
+
+    <TextView
+        android:id="@+id/medicaments"
+        android:layout_width="165dp"
+        android:layout_height="149dp"
+        android:background="@drawable/cicrclebg"
+        android:gravity="center"
+        android:onClick="btnmedicaments"
+        android:text="Medicaments"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+</androidx.constraintlayout.widget.ConstraintLayout>
