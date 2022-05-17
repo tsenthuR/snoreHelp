@@ -22,79 +22,132 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+
     <TextView
-        android:layout_width="268dp"
-        android:layout_height="77dp"
+        android:layout_width="154dp"
+        android:layout_height="36dp"
         android:background="@drawable/button"
         android:gravity="center"
-        android:text="Profile"
+        android:text="Account"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.177" />
+        app:layout_constraintVertical_bias="0.202" />
 
     <TextView
-        android:layout_width="268dp"
-        android:layout_height="77dp"
+        android:layout_width="154dp"
+        android:layout_height="36dp"
         android:background="@drawable/outline"
         android:gravity="center"
-        android:text="Date Of Birth"
+        android:text="Fee Overview"
         android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="85dp"
+        android:background="@drawable/outlinenormal"
+        android:gravity="center"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:text="MONICA GELLER"
+        android:textColor="#474343"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.383" />
+        app:layout_constraintVertical_bias="0.327" />
 
     <TextView
-        android:layout_width="268dp"
-        android:layout_height="77dp"
-        android:background="@drawable/outline"
+        android:id="@+id/pname"
+        android:layout_width="307dp"
+        android:layout_height="61dp"
+        android:background="@drawable/outlinenormal"
         android:gravity="center"
-        android:text="Profile"
-        android:textColor="@color/black"
+        android:text="MONICA GELLER"
+        android:textColor="#474343"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535" />
+        app:layout_constraintVertical_bias="0.517" />
 
     <TextView
-        android:layout_width="268dp"
-        android:layout_height="77dp"
-        android:background="@drawable/outline"
+        android:id="@+id/pdob"
+        android:layout_width="294dp"
+        android:layout_height="43dp"
+        android:background="@drawable/outlinenormal"
         android:gravity="center"
-        android:text="Address"
+        android:text="01/02/1996"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintHorizontal_bias="0.401"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.767" />
+        app:layout_constraintVertical_bias="0.623" />
 
     <TextView
-        android:layout_width="268dp"
-        android:layout_height="77dp"
-        android:background="@drawable/outline"
+        android:id="@+id/textView63"
+        android:layout_width="298dp"
+        android:layout_height="44dp"
+        android:background="@drawable/outlinenormal"
+
         android:gravity="center"
-        android:text="Phone Number"
+        android:text="Female"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.937" />
+        app:layout_constraintVertical_bias="0.746" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="298dp"
+        android:layout_height="44dp"
+        android:background="@drawable/outlinenormal"
+
+        android:gravity="center"
+        android:text="No. 12 Melbourne Avenue, Colombo 04"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="298dp"
+        android:layout_height="42dp"
+        android:background="@drawable/outlinenormal"
+        android:gravity="center"
+        android:text="0777586956"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

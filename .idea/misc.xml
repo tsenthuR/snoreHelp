@@ -9,10 +9,12 @@
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.240625" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/drawable/input.xml" value="0.240625" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/drawable/outline.xml" value="0.20462962962962963" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/drawable/outlinenormal.xml" value="0.22777777777777777" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/drawable/outlinewithcolor.xml" value="0.178125" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/drawable/radioback.xml" value="0.25" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/drawable/transparnt_background.xml" value="0.240625" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/drawable/transpart_back.xml" value="0.240625" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_appoiment.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_diagnostic_test1.xml" value="0.25" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_diagnostic_test2.xml" value="0.1539855072463768" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_diagnostic_test3.xml" value="0.18" />
@@ -27,7 +29,7 @@
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_login_cactivity.xml" value="0.25" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_login_dactivity.xml" value="0.13722826086956522" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_main2.xml" value="0.34716459197787" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_main2.xml" value="0.22" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_medicaments.xml" value="0.1539855072463768" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_record_result.xml" value="0.16197916666666667" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_recordding1.xml" value="0.25" />
@@ -38,15 +40,20 @@
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_signup_dactivity.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_signup_home.xml" value="0.2164855072463768" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_sigup_deduca.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/activity_sleep_tracks.xml" value="0.25" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/calendar_cell.xml" value="0.14855072463768115" />
-        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_connect.xml" value="0.1037037037037037" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_appponponts_d.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_connect.xml" value="0.25" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_home.xml" value="0.18" />
-        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_profile.xml" value="0.15" />
-        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_reports.xml" value="0.1037037037037037" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_homed.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_patientsd.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_reports.xml" value="0.22" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/fragment_results.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/list_item_qualicatin.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/single_list_item.xml" value="0.16197916666666667" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/layout/spinner_layout.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/menu/bootom_nav_menu_doct.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/senth/AndroidStudioProjects/SnoreHelp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.11388888888888889" />
       </map>
     </option>

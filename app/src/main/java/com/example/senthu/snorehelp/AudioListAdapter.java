@@ -13,8 +13,10 @@ import java.io.File;
 
 public class AudioListAdapter  extends RecyclerView.Adapter<AudioListAdapter.AudioViewHolder>{
     private File[] allFiles;
-    public AudioListAdapter(File[] allFiles){
+    private onItemListClick onItemListClick;
+    public AudioListAdapter(File[] allFiles,onItemListClick onItemListClick){
         this.allFiles= allFiles;
+        this.onItemListClick= onItemListClick;
 
     }
 
@@ -30,7 +32,7 @@ public class AudioListAdapter  extends RecyclerView.Adapter<AudioListAdapter.Aud
     @Override
     public void onBindViewHolder(@NonNull AudioViewHolder holder, int position) {
         holder.list_title.setText(allFiles[position].getName());
-        holder.list_date.setText(allFiles[position].lastModified()+"");
+
 
     }
 
@@ -39,16 +41,26 @@ public class AudioListAdapter  extends RecyclerView.Adapter<AudioListAdapter.Aud
         return allFiles.length;
     }
 
-    public class AudioViewHolder extends RecyclerView.ViewHolder{
+    public class AudioViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         private ImageView list_image;
         private TextView list_title;
-        private TextView list_date;
+
         public AudioViewHolder(@NonNull View itemView) {
             super(itemView);
 
             list_image=itemView.findViewById(R.id.list_view_image);
             list_title=itemView.findViewById(R.id.list_view_title);
-            list_date=itemView.findViewById(R.id.list_view_date);
+
+            itemView.setOnClickListener(this);
         }
+
+        @Override
+        public void onClick(View view) {
+            onItemListClick.onClickListener(allFiles[getAdapterPosition()],getAdapterPosition());
+
+        }
+    }
+    public interface onItemListClick{
+        void onClickListener(File file,int position);
     }
 }

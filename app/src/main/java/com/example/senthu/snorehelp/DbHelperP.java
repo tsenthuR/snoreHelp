@@ -64,5 +64,10 @@ public class DbHelperP extends SQLiteOpenHelper {
 
         }
     }
+    public Cursor read_data(){
+        SQLiteDatabase db=getWritableDatabase();
+        Cursor cursor=db.rawQuery("select * from users",null);
+        return cursor;
+    }
 
 }

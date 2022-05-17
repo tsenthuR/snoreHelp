@@ -52,17 +52,16 @@
         app:layout_constraintVertical_bias="0.225" />
 
 
-
-
     <TextView
 
+        android:id="@+id/textView12"
         android:layout_width="203dp"
         android:layout_height="56dp"
         android:gravity="center"
         android:text="Sitting and reading"
         android:textColor="@color/black"
-        android:textSize="20sp"
 
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -72,9 +71,9 @@
 
     <RadioGroup
         android:id="@+id/oneg"
-        android:layout_width="176dp"
+        android:layout_width="160dp"
         android:layout_height="63dp"
-        android:background="@drawable/radioback"
+
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,46 +84,77 @@
 
         <RadioButton
             android:id="@+id/oone"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/otwo"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/othree"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/ofour"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
 
     </RadioGroup>
 
-    <TextView
-        android:layout_width="166dp"
-        android:layout_height="77dp"
-        android:gravity="center"
-        android:text="00      01      02      03"
-        android:textColor="@color/black"
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29000002" />
+        app:layout_constraintVertical_bias="0.26999998">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="02"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="03"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+
+    </LinearLayout>
+
+
 
 
     <TextView
+        android:id="@+id/textView11"
         android:layout_width="203dp"
         android:layout_height="56dp"
         android:gravity="center"
@@ -141,9 +171,9 @@
 
     <RadioGroup
         android:id="@+id/twog"
-        android:layout_width="176dp"
+        android:layout_width="160dp"
         android:layout_height="63dp"
-        android:background="@drawable/radioback"
+
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -154,25 +184,25 @@
 
         <RadioButton
             android:id="@+id/tone"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/ttwo"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/tthree"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/tfour"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
@@ -195,9 +225,9 @@
 
     <RadioGroup
         android:id="@+id/threeg"
-        android:layout_width="176dp"
+        android:layout_width="160dp"
         android:layout_height="63dp"
-        android:background="@drawable/radioback"
+
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -208,25 +238,25 @@
 
         <RadioButton
             android:id="@+id/thone"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/thtwo"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/ththree"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/thfour"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
@@ -235,6 +265,7 @@
 
 
     <TextView
+        android:id="@+id/textView10"
         android:layout_width="203dp"
         android:layout_height="56dp"
         android:gravity="center"
@@ -249,9 +280,9 @@
         app:layout_constraintVertical_bias="0.53999996" />
 
     <RadioGroup  android:id="@+id/fourg"
-        android:layout_width="176dp"
+        android:layout_width="160dp"
         android:layout_height="63dp"
-        android:background="@drawable/radioback"
+
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -262,25 +293,25 @@
 
         <RadioButton
             android:id="@+id/fone"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/ftwo"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/fthree"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/ffour"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
@@ -303,9 +334,9 @@
 
     <RadioGroup
         android:id="@+id/fiveg"
-        android:layout_width="176dp"
+        android:layout_width="160dp"
         android:layout_height="63dp"
-        android:background="@drawable/radioback"
+
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -316,25 +347,25 @@
 
         <RadioButton
             android:id="@+id/fione"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/fitwo"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/fithree"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/fifour"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
@@ -359,9 +390,9 @@
 
     <RadioGroup
         android:id="@+id/sixg"
-        android:layout_width="176dp"
+        android:layout_width="160dp"
         android:layout_height="63dp"
-        android:background="@drawable/radioback"
+
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -372,25 +403,25 @@
 
         <RadioButton
             android:id="@+id/sone"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/stwo"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/sthree"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/sfour"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
@@ -399,6 +430,7 @@
 
 
     <TextView
+        android:id="@+id/textView9"
         android:layout_width="203dp"
         android:layout_height="56dp"
         android:gravity="center"
@@ -414,9 +446,9 @@
 
     <RadioGroup
         android:id="@+id/seveng"
-        android:layout_width="176dp"
+        android:layout_width="160dp"
         android:layout_height="63dp"
-        android:background="@drawable/radioback"
+
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -427,25 +459,25 @@
 
         <RadioButton
             android:id="@+id/seone"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/setwo"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/sethree"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/sefour"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
@@ -469,9 +501,9 @@
 
     <RadioGroup
         android:id="@+id/eightg"
-        android:layout_width="176dp"
+        android:layout_width="160dp"
         android:layout_height="63dp"
-        android:background="@drawable/radioback"
+
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -482,25 +514,25 @@
 
         <RadioButton
             android:id="@+id/eone"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/etwo"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/ethree"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <RadioButton
             android:id="@+id/efour"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 

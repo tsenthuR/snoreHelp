@@ -8,81 +8,78 @@
     android:background="@color/white">
 
     <ImageView
-        android:layout_width="303dp"
-        android:layout_height="146dp"
+        android:id="@+id/imageView4"
+        android:layout_width="305dp"
+        android:layout_height="116dp"
+        android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.046"
-        android:src="@drawable/logo"/>
+        app:layout_constraintVertical_bias="0.04" />
+
 
     <TextView
-        android:id="@+id/et_Record"
-        android:layout_width="165dp"
-        android:layout_height="149dp"
-        android:background="@drawable/cicrclebg"
-
+        android:id="@+id/textView1"
+        android:layout_width="280dp"
+        android:layout_height="101dp"
+        android:background="@drawable/input"
+        android:text="Set Time"
+        android:textSize="30sp"
         android:gravity="center"
-        android:text="Record"
         android:textColor="@color/black"
-        android:textSize="30dp"
-        android:onClick="btnrecord"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.366"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.413" />
+        app:layout_constraintVertical_bias="0.304" />
 
     <TextView
-        android:id="@+id/diagnosis"
-        android:layout_width="165dp"
-        android:layout_height="149dp"
-        android:background="@drawable/cicrclebg"
+        android:id="@+id/tv"
+        android:layout_width="280dp"
+        android:layout_height="101dp"
+        android:background="@drawable/input"
+        android:text="Sleep inducing Tracks"
+        android:textSize="30sp"
+        android:onClick="sleeptracks"
         android:gravity="center"
-        android:text="Diagnosis"
         android:textColor="@color/black"
-        android:textSize="30dp"
-        android:onClick="btndianoise"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.427"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.552" />
 
     <TextView
-        android:id="@+id/habits"
-        android:layout_width="165dp"
-        android:layout_height="149dp"
-        android:background="@drawable/cicrclebg"
+        android:id="@+id/textView3"
+        android:layout_width="280dp"
+        android:layout_height="101dp"
+        android:background="@drawable/input"
+        android:text="Capture Mode"
+        android:textSize="30sp"
         android:gravity="center"
-        android:text="Habits"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:onClick="btnhabits"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774" />
 
-    <TextView
-        android:id="@+id/medicaments"
-        android:layout_width="165dp"
-        android:layout_height="149dp"
-        android:background="@drawable/cicrclebg"
-        android:gravity="center"
-        android:onClick="btnmedicaments"
-        android:text="Medicaments"
         android:textColor="@color/black"
-        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.783" />
+        app:layout_constraintVertical_bias="0.785" />
+
+    <Button
+        android:id="@+id/btn_start_home"
+        android:layout_width="255dp"
+        android:layout_height="59dp"
+        android:background="@drawable/button"
+        android:text="START"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
 </androidx.constraintlayout.widget.ConstraintLayout>

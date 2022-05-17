@@ -21,6 +21,9 @@
 
 
 
+
+
+
     <EditText
         android:id="@+id/spname"
         android:layout_width="350dp"
