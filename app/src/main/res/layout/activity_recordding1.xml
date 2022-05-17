@@ -41,8 +41,8 @@
 
     <Chronometer
         android:id="@+id/record_timer"
-        android:layout_width="71dp"
-        android:layout_height="79dp"
+        android:layout_width="203dp"
+        android:layout_height="144dp"
         android:background="@drawable/cicrclebg"
         android:gravity="center"
         android:textColor="@color/black"
@@ -51,24 +51,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403"
-        android:visibility="gone"/>
+        app:layout_constraintVertical_bias="0.403" />
 
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="281dp"
-        android:layout_height="104dp"
-        android:gravity="center"
-        android:text="00:30:00"
 
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.397" />
 
     <Button
         android:id="@+id/record_btn"

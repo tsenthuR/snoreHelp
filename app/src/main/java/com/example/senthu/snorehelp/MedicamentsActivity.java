@@ -40,7 +40,7 @@ public class MedicamentsActivity extends AppCompatActivity {
 
     }
     private void showOptionDialoh() {
-        final String [] option= {"never","normal","siver"};
+        final String [] option= {"Select","Delete"};
         AlertDialog.Builder builder= new AlertDialog.Builder(MedicamentsActivity.this);
         builder.setTitle("Please Select Honstly Answer");
         builder.setSingleChoiceItems(option, 0, new DialogInterface.OnClickListener() {
@@ -53,7 +53,7 @@ public class MedicamentsActivity extends AppCompatActivity {
         builder.setPositiveButton("proceed", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Toast.makeText(MedicamentsActivity.this, " Your Selected  "+Slectoption, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MedicamentsActivity.this, "  You Selected   "+Slectoption, Toast.LENGTH_SHORT).show();
                 dialogInterface.dismiss();
 
             }
@@ -61,7 +61,7 @@ public class MedicamentsActivity extends AppCompatActivity {
         builder.setNegativeButton("exit", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Toast.makeText(MedicamentsActivity.this, "You Must Slect One option", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MedicamentsActivity.this, "Please select an option", Toast.LENGTH_SHORT).show();
                 dialogInterface.dismiss();
 
             }

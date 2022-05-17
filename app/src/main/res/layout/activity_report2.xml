@@ -8,21 +8,115 @@
     tools:context=".Report2Activity"
     android:background="@color/white">
 
-    <com.androidplot.xy.XYPlot
-        android:background="@color/white"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="76dp"
+        android:gravity="center"
+        android:text="Analytics Reports"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="668dp"
+        android:gravity="center"
+        android:text="01.02.2020 - 11.02.2020"
+
+        android:textColor="#777575"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="602dp"
+        android:gravity="center"
+        android:text="Score Summary"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/mypolit"
         style="@style/APDefacto"
-        ap:rangeTitle="Range Title"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="313dp"
+        android:background="@color/white"
+        android:paddingTop="30dp"
         ap:domainTitle="Domain title"
-        ap:lineLabels="left|bottom"
         ap:lineLabelRotationBottom="-45"
         ap:lineLabelRotationLeft="-45"
-        ap:title="Tile"
-        android:id="@+id/mypolit"
+        ap:lineLabels="left|bottom"
 
-        />
+        ap:rangeTitle="Range Title"
+        ap:title="Tile" />
 
+    <TextView
+        android:layout_width="284dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/outlinenormal"
+        android:gravity="center"
+        android:text="Number of Sessions"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="284dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/outlinenormal"
+        android:gravity="center"
+        android:text="Daily score"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="284dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/outlinenormal"
+        android:gravity="center"
+        android:text="Score after changes"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="617dp"
+        android:gravity="center"
+        android:src="@drawable/ic_baseline_share_24" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/cicrclebg"
+        android:gravity="center"
+        android:text="16"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

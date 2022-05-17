@@ -17,32 +17,44 @@
         app:layout_constraintVertical_bias="0.046"
         android:src="@drawable/logo"/>
 
-    <ImageButton
-        android:id="@+id/ib_record"
-        android:layout_width="148dp"
-        android:layout_height="161dp"
-        android:background="@drawable/outline"
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="149dp"
         android:gravity="center"
-        android:onClick="btnrecord"
-        android:scaleType="fitCenter"
-        android:src="@drawable/recordfinal"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_baseline_mic_24"
         android:text="Record"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.413" />
+        app:layout_constraintVertical_bias="0.339" />
 
-    <ImageButton
-        android:id="@+id/ib_diagnosis"
+
+    <Button
+        android:id="@+id/ib_record"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Record"
+        android:textColor="@color/ap_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <ImageView
+
         android:layout_width="165dp"
         android:layout_height="149dp"
         android:background="@drawable/outline"
         android:gravity="center"
-        android:onClick="btndianoise"
         android:scaleType="fitXY"
         android:src="@drawable/diagnosis"
         android:text="Diagnosis"
@@ -50,18 +62,31 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.89"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.333" />
 
-    <ImageButton
-        android:id="@+id/ib_habits"
+    <Button
+        android:id="@+id/ib_diagnosis"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Diagnosis"
+        android:textColor="@color/ap_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <ImageView
+
         android:layout_width="165dp"
         android:layout_height="149dp"
         android:background="@drawable/outline"
         android:gravity="center"
-        android:onClick="btnhabits"
         android:scaleType="fitXY"
         android:src="@drawable/habits"
         android:text="Habits"
@@ -69,18 +94,31 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774" />
+        app:layout_constraintVertical_bias="0.783" />
 
-    <ImageButton
-        android:id="@+id/ib_medicaments"
+    <Button
+        android:id="@+id/ib_habits"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Habits"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
+
+    <ImageView
+
         android:layout_width="165dp"
         android:layout_height="149dp"
         android:background="@drawable/outline"
         android:gravity="center"
-        android:onClick="btnmedicaments"
         android:scaleType="fitXY"
         android:src="@drawable/medicaments"
         android:text="Medicaments"
@@ -88,10 +126,24 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.89"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.783" />
+
+    <Button
+        android:id="@+id/ib_medicaments"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Treatments"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.90999997" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

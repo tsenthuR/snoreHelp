@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class DiagnosticTest5Activity extends AppCompatActivity {
@@ -55,5 +56,9 @@ public class DiagnosticTest5Activity extends AppCompatActivity {
             osa.setTextColor(Color.RED);
 
         }
+    }
+    public void btnfinish(View view){
+        Intent intent= new Intent(DiagnosticTest5Activity.this,MainActivity2.class);
+        startActivity(intent);
     }
 }

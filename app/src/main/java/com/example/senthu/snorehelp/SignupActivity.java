@@ -43,26 +43,26 @@ public class SignupActivity extends AppCompatActivity {
                 if (TextUtils.isEmpty(name)||TextUtils.isEmpty(dob)||TextUtils.isEmpty(gen)||TextUtils.isEmpty(pass)||TextUtils.isEmpty(repass))
                 {
 
-                    Toast.makeText(SignupActivity.this, "Plesse all values", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignupActivity.this, "Please fill in with all credentials", Toast.LENGTH_SHORT).show();
                 }else{
                     if (pass.equals(repass)){
                             Boolean checkuser= DB.checkUsername(name);
                             if (checkuser==false){
                                 boolean insert= DB.insertdata(name,dob,gen,mail,pass);
                                 if (insert == true) {
-                                    Toast.makeText(SignupActivity.this, "Sucessful reate Account", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(SignupActivity.this, "Successfully Account Created", Toast.LENGTH_SHORT).show();
                                     Intent intent= new Intent(SignupActivity.this,MainActivity2.class);
                                     startActivity(intent);
 
                                 }else{
-                                    Toast.makeText(SignupActivity.this, "Registed Failed", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(SignupActivity.this, "Registration Failed", Toast.LENGTH_SHORT).show();
                                 }
                             }else{
-                                Toast.makeText(SignupActivity.this, "UserName Already Enter", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SignupActivity.this, "Username already exist", Toast.LENGTH_SHORT).show();
                             }
                     }
                     else {
-                        Toast.makeText(SignupActivity.this, "Password Not Match", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SignupActivity.this, "Password Do Not Match", Toast.LENGTH_SHORT).show();
                     }
                 }
             }

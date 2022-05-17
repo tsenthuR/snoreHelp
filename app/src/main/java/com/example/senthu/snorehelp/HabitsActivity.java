@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -42,9 +43,8 @@ public class HabitsActivity extends AppCompatActivity {
 
 
     private void showOptionDialoh() {
-        final String [] option= {"never", "Casual","normal","addited"};
+        final String [] option= {"Select","Delete"};
         AlertDialog.Builder builder= new AlertDialog.Builder(HabitsActivity.this);
-        builder.setTitle("Please Select Honstly Answer");
         builder.setSingleChoiceItems(option, 0, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -55,7 +55,7 @@ public class HabitsActivity extends AppCompatActivity {
         builder.setPositiveButton("proceed", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Toast.makeText(HabitsActivity.this, " Your Selected  "+Slectoption, Toast.LENGTH_SHORT).show();
+                Toast.makeText(HabitsActivity.this, " You Selected  "+Slectoption, Toast.LENGTH_SHORT).show();
                 dialogInterface.dismiss();
 
             }
@@ -63,11 +63,15 @@ public class HabitsActivity extends AppCompatActivity {
         builder.setNegativeButton("exit", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Toast.makeText(HabitsActivity.this, "You Must Slect One option", Toast.LENGTH_SHORT).show();
+                Toast.makeText(HabitsActivity.this, "Please select an option", Toast.LENGTH_SHORT).show();
                 dialogInterface.dismiss();
 
             }
         });
         builder.show();
+    }
+    public void btnconf(View view){
+        Intent intent= new Intent(HabitsActivity.this,MainActivity2.class);
+        startActivity(intent);
     }
 }

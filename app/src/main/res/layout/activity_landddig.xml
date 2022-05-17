@@ -20,55 +20,47 @@
         app:layout_constraintVertical_bias="0.04" />
 
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="280dp"
+
+    <Spinner
+        android:id="@+id/spinner_settime"
+        android:layout_width="200dp"
         android:layout_height="101dp"
+        android:layout_marginEnd="116dp"
         android:background="@drawable/input"
-        android:text="Set Time"
-        android:textSize="30sp"
-        android:gravity="center"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.366"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.304" />
 
     <TextView
         android:id="@+id/tv"
-        android:layout_width="280dp"
+        android:layout_width="200dp"
         android:layout_height="101dp"
-        android:background="@drawable/input"
-        android:text="Sleep inducing Tracks"
-        android:textSize="30sp"
+        android:background="@drawable/outline"
+        android:gravity="center"
         android:onClick="sleeptracks"
-        android:gravity="center"
+        android:text="Sleep Tracks"
         android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.552" />
+        app:layout_constraintVertical_bias="0.51" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="280dp"
+
+    <Spinner
+        android:id="@+id/spinner_capture"
+        android:layout_width="200dp"
         android:layout_height="101dp"
+        android:layout_marginEnd="116dp"
         android:background="@drawable/input"
-        android:text="Capture Mode"
-        android:textSize="30sp"
-        android:gravity="center"
-
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785" />
+        app:layout_constraintVertical_bias="0.72" />
+
 
     <Button
         android:id="@+id/btn_start_home"

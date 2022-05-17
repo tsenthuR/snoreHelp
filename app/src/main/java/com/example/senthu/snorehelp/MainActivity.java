@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
     }
     public void btnStarClicked(View v){
-        Intent intent= new Intent(MainActivity.this,DoctorHomeActivity.class);
+        Intent intent= new Intent(MainActivity.this,DividerActivity.class);
     startActivity(intent);
 
     }

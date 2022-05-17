@@ -14,7 +14,7 @@
         android:gravity="center"
         android:text="OSA Diagnostic Test"
         android:textColor="@color/black"
-        android:textSize="40sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
@@ -27,9 +27,9 @@
         android:layout_width="match_parent"
         android:layout_height="79dp"
         android:gravity="center"
-        android:text="Step 03 out of 05"
+        android:text="Step 03 out of 05 - EPWORTH SLEEPINESS SCALE"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.621"
@@ -41,7 +41,7 @@
         android:layout_width="407dp"
         android:layout_height="80dp"
         android:layout_marginLeft="10dp"
-        android:text="EPWORTH SLEEPINESS SCALE"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="27sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,17 +67,17 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.32" />
 
     <RadioGroup
         android:id="@+id/oneg"
         android:layout_width="160dp"
         android:layout_height="63dp"
-
+        android:background="@drawable/input"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.32">
@@ -122,28 +122,28 @@
         <TextView
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:text="00"
+            android:text="0"
             android:textColor="@color/black"
             android:textSize="24dp" />
 
         <TextView
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:text="01"
+            android:text="1"
             android:textColor="@color/black"
             android:textSize="24dp" />
 
         <TextView
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:text="02"
+            android:text="2"
             android:textColor="@color/black"
             android:textSize="24dp" />
 
         <TextView
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:text="03"
+            android:text="3"
             android:textColor="@color/black"
             android:textSize="24dp" />
 
@@ -173,11 +173,11 @@
         android:id="@+id/twog"
         android:layout_width="160dp"
         android:layout_height="63dp"
-
+        android:background="@drawable/input"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.39">
@@ -223,18 +223,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.45999998" />
 
+
     <RadioGroup
         android:id="@+id/threeg"
         android:layout_width="160dp"
         android:layout_height="63dp"
-
+        android:background="@drawable/input"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47000003">
+        app:layout_constraintVertical_bias="0.45999998">
 
         <RadioButton
             android:id="@+id/thone"
@@ -263,7 +264,6 @@
 
     </RadioGroup>
 
-
     <TextView
         android:id="@+id/textView10"
         android:layout_width="203dp"
@@ -279,17 +279,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.53999996" />
 
-    <RadioGroup  android:id="@+id/fourg"
+    <RadioGroup
+        android:id="@+id/fourg"
         android:layout_width="160dp"
-        android:layout_height="63dp"
-
+        android:layout_height="70dp"
+        android:background="@drawable/input"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55">
+        app:layout_constraintVertical_bias="0.53">
 
         <RadioButton
             android:id="@+id/fone"
@@ -335,15 +336,15 @@
     <RadioGroup
         android:id="@+id/fiveg"
         android:layout_width="160dp"
-        android:layout_height="63dp"
-
+        android:layout_height="75dp"
+        android:background="@drawable/input"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.64">
+        app:layout_constraintVertical_bias="0.62">
 
         <RadioButton
             android:id="@+id/fione"
@@ -391,15 +392,15 @@
     <RadioGroup
         android:id="@+id/sixg"
         android:layout_width="160dp"
-        android:layout_height="63dp"
-
+        android:layout_height="70dp"
+        android:background="@drawable/input"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.72">
+        app:layout_constraintVertical_bias="0.71000004">
 
         <RadioButton
             android:id="@+id/sone"
@@ -447,15 +448,15 @@
     <RadioGroup
         android:id="@+id/seveng"
         android:layout_width="160dp"
-        android:layout_height="63dp"
-
+        android:layout_height="75dp"
+        android:background="@drawable/input"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.81">
+        app:layout_constraintVertical_bias="0.8">
 
         <RadioButton
             android:id="@+id/seone"
@@ -489,7 +490,7 @@
         android:layout_width="203dp"
         android:layout_height="56dp"
         android:gravity="center"
-        android:text="Sitting and reading"
+        android:text="Stopping for a few minutes in traffic while driving"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -497,20 +498,20 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintVertical_bias="0.88" />
 
     <RadioGroup
         android:id="@+id/eightg"
         android:layout_width="160dp"
         android:layout_height="63dp"
-
+        android:background="@drawable/input"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9">
+        app:layout_constraintVertical_bias="0.88">
 
         <RadioButton
             android:id="@+id/eone"

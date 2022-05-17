@@ -22,22 +22,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HI ...."
+        android:text="Login"
+        android:textColor="#449DB9"
         android:textSize="30sp"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.318" />
+        app:layout_constraintVertical_bias="0.309" />
 
     <EditText
         android:id="@+id/lcname"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="@drawable/outline"
-        android:hint="Enter Your UserName"
+        android:hint="Username"
         android:textColor="@color/black"
         android:imeOptions="actionNext"
         android:paddingLeft="20dp"
@@ -52,10 +51,11 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="@drawable/outline"
-        android:hint="Enter Your Password"
+        android:hint="Password"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:paddingLeft="20dp"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
@@ -80,27 +80,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="20dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="75dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.789">
+        app:layout_constraintVertical_bias="0.81">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="20dp"
-            android:text="Already Haven't An Account?"
+            android:text="Wish to create an account?"
             android:textColor="#040404" />
 
         <TextView
             android:layout_width="wrap_content"
-
             android:layout_height="20dp"
             android:onClick="btnSignCClicked"
-            android:text="SIGIN"
-            android:textColor="#3B7EF3" />
+            android:paddingLeft="5dp"
+            android:text="SIGN UP"
+            android:textColor="#449DB9" />
 
     </LinearLayout>
 

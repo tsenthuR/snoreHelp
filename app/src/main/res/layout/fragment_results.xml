@@ -1,40 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ResultsFragment"
-    android:background="@drawable/homepage_background_b">
+    android:background="@color/white">
 
     <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="401dp"
+        android:layout_height="94dp"
+        android:gravity="center"
+        android:text="RECORDING RESULTS"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <TextView
+        android:layout_width="401dp"
+        android:layout_height="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="538dp"
+        android:gravity="center"
+        android:text="SELECT DATE"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+
+
+
+    <CalendarView
+        android:id="@+id/cal"
         android:layout_width="match_parent"
-        android:layout_height="217dp"
-        android:src="@drawable/logore" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
 
-
-
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Wold you like go to snoor results"
-    android:textSize="30sp"
-    android:textColor="@color/white"
-    android:gravity="center"
-    android:layout_marginTop="250dp"/>
+        android:layout_marginBottom="172dp"
+        android:background="@color/black"
+        android:onClick="btnCalendeClick" />
 
     <Button
+        android:id="@+id/resclick"
         android:layout_width="184dp"
         android:layout_height="50dp"
-        android:text="CLICK ME"
-        android:id="@+id/resclick"
-        android:layout_marginTop="420dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="100dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="60dp"
         android:background="@drawable/button"
-        />
+        android:text="APPLY DATE" />
 
     />
 
-</FrameLayout>
+</RelativeLayout>

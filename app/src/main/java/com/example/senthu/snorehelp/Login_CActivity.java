@@ -36,11 +36,11 @@ public class Login_CActivity extends AppCompatActivity {
                 }else{
                     Boolean checkuserPass= DB.checkusernamepassword(name,pass);
                     if (checkuserPass==true){
-                        Toast.makeText(Login_CActivity.this, "Logging Sucees", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Login_CActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
                         Intent intent= new Intent(Login_CActivity.this,MainActivity2.class);
                         startActivity(intent);
                     }else{
-                        Toast.makeText(Login_CActivity.this, "Entered Valied Name", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Login_CActivity.this, "Please enter valid credentials", Toast.LENGTH_SHORT).show();
                     }
                 }
             }

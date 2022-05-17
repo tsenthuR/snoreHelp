@@ -40,6 +40,7 @@ public class SiginDprofaActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 Items1=spinner.getSelectedItem().toString();
+                Toast.makeText(SiginDprofaActivity.this, "jj"+i, Toast.LENGTH_SHORT).show();
             }
 
             @Override

@@ -13,7 +13,7 @@
         android:gravity="center"
         android:text="OSA Diagnostic Test"
         android:textColor="@color/black"
-        android:textSize="40sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
@@ -25,9 +25,9 @@
         android:layout_width="match_parent"
         android:layout_height="79dp"
         android:gravity="center"
-        android:text="Step 04 out of 05"
+        android:text="Step 04 out of 05 - STOP-BANG QUESTIONNAIRE"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.621"
@@ -35,30 +35,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.104" />
 
-    <TextView
-        android:layout_width="407dp"
-        android:layout_height="80dp"
-        android:layout_marginLeft="10dp"
-        android:text="STOP-BANG QUESTIONNAIRE"
-        android:textColor="@color/black"
-        android:textSize="27sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.225" />
 
     <TextView
         android:layout_width="175dp"
         android:layout_height="50dp"
-        android:gravity="center"
+        android:gravity="left"
+        android:paddingLeft="20dp"
         android:text="Snore"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.333" />
@@ -67,17 +55,19 @@
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/input"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.33999997" />
+        app:layout_constraintVertical_bias="0.32" />
 
     <TextView
         android:layout_width="175dp"
         android:layout_height="50dp"
-        android:gravity="center"
+        android:gravity="left"
+        android:paddingLeft="20dp"
         android:text="Tired"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -92,17 +82,19 @@
         android:id="@+id/switch2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/input"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404" />
+        app:layout_constraintVertical_bias="0.39" />
 
     <TextView
         android:layout_width="175dp"
         android:layout_height="50dp"
-        android:gravity="center"
+        android:gravity="left"
+        android:paddingLeft="20dp"
         android:text="Observed"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -117,16 +109,19 @@
         android:id="@+id/switch3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/input"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48000002" />
 
     <TextView
         android:layout_width="175dp"
         android:layout_height="50dp"
-        android:gravity="center"
+        android:gravity="left"
+        android:paddingLeft="20dp"
         android:text="Pressure"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -141,23 +136,25 @@
         android:id="@+id/switch4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/input"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
+        app:layout_constraintVertical_bias="0.55" />
 
     <TextView
         android:layout_width="175dp"
         android:layout_height="50dp"
-        android:gravity="center"
+        android:gravity="left"
+        android:paddingLeft="20dp"
         android:text="BMI>35"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.668" />
@@ -166,17 +163,19 @@
         android:id="@+id/switch5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/input"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.678" />
+        app:layout_constraintVertical_bias="0.65" />
 
     <TextView
         android:layout_width="175dp"
         android:layout_height="50dp"
-        android:gravity="center"
+        android:gravity="left"
+        android:paddingLeft="20dp"
         android:text="Age older than 50"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -191,17 +190,19 @@
         android:id="@+id/switch6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/input"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.73" />
 
     <TextView
         android:layout_width="175dp"
-        android:layout_height="50dp"
-        android:gravity="center"
+        android:layout_height="90dp"
+        android:gravity="left"
+        android:paddingLeft="20dp"
         android:text="Neck size larger than 40cm"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -210,23 +211,26 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814" />
+        app:layout_constraintVertical_bias="0.87" />
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switch7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:background="@drawable/input"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.821" />
+        app:layout_constraintVertical_bias="0.8" />
 
     <TextView
         android:layout_width="175dp"
         android:layout_height="50dp"
-        android:gravity="center"
+        android:gravity="left"
+        android:paddingLeft="20dp"
         android:text="Gender = male"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -235,18 +239,19 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.93" />
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switch8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/input"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.907" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <Button
         android:id="@+id/btn_nextfive"

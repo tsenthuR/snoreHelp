@@ -13,7 +13,7 @@
         android:gravity="center"
         android:text="OSA Diagnostic Test"
         android:textColor="@color/black"
-        android:textSize="40sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
@@ -25,9 +25,9 @@
         android:layout_width="match_parent"
         android:layout_height="79dp"
         android:gravity="center"
-        android:text="Step 04 out of 05"
+        android:text="Step 04 out of 05 - RESULTS"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.621"
@@ -35,19 +35,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.104" />
 
-    <TextView
-        android:layout_width="407dp"
-        android:layout_height="80dp"
-        android:layout_marginLeft="10dp"
-        android:text="RESULTS"
-        android:textColor="@color/black"
-        android:textSize="27sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.225" />
 
     <TextView
         android:layout_width="407dp"
@@ -62,7 +49,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374" />
+        app:layout_constraintVertical_bias="0.32" />
 
     <TextView
         android:id="@+id/tvfivefirst"
@@ -78,8 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="143dp"
@@ -113,5 +99,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.875" />
+
+    <Button
+        android:id="@+id/btn_nextfive"
+        android:layout_width="184dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="FINISH"
+        android:onClick="btnfinish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

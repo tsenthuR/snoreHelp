@@ -52,33 +52,29 @@ public class RecorddingActivity1 extends AppCompatActivity {
         record_filename = findViewById(R.id.record_filename);
         textview1=findViewById(R.id.textView1);
 
-
-    }
-    public void recosstart(View v) {
-
-            //start stament
             if (checkPremission()) {
                 isrecording = true;
                 starRecoring();
-                //1800000
-                new CountDownTimer(10000, 1000) {
-                    public void onTick(long millisUntilFinished) {
-                        // Used for formatting digit to be in 2 digits only
-                        NumberFormat f = new DecimalFormat("00");
-                        long hour = (millisUntilFinished / 3600000) % 24;
-                        long min = (millisUntilFinished / 60000) % 60;
-                        long sec = (millisUntilFinished / 1000) % 60;
-                        textview1.setText(f.format(hour) + ":" + f.format(min) + ":" + f.format(sec));
-                    }
-                    // When the task is over it will print 00:00:00 there
-                    public void onFinish() {
-                        textview1.setText("00:00:00");
-                        stopRecoring();
-                        Toast.makeText(RecorddingActivity1.this, "stop Acity", Toast.LENGTH_SHORT).show();
-                    }
-                }.start();
-                Toast.makeText(RecorddingActivity1.this, "Startv Acity", Toast.LENGTH_SHORT).show();
+
+
+                Toast.makeText(RecorddingActivity1.this, "Start Acity", Toast.LENGTH_SHORT).show();
             }
+
+
+
+
+
+    }
+    public void recosstart(View v) {
+        if(isrecording){
+            stopRecoring();
+            isrecording=false;
+            Toast.makeText(RecorddingActivity1.this, "Stop Record", Toast.LENGTH_SHORT).show();
+        }
+
+
+            //start stament
+
 
 
 

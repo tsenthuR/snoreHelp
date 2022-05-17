@@ -13,7 +13,7 @@
         android:gravity="center"
         android:text="OSA Diagnostic Test"
         android:textColor="@color/black"
-        android:textSize="40sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
@@ -25,9 +25,9 @@
         android:layout_width="match_parent"
         android:layout_height="79dp"
         android:gravity="center"
-        android:text="Step 01 out of 05"
+        android:text="Step 01 out of 05 - DEMOGRAPHICS"
         android:textColor="@color/black"
-        android:textSize="26sp"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.621"
@@ -35,50 +35,38 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.104" />
 
-    <TextView
-        android:layout_width="293dp"
-        android:layout_height="75dp"
-        android:text="DEMOGRAPHICS"
-        android:textColor="@color/black"
-        android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
 
     <EditText
         android:layout_width="304dp"
         android:layout_height="64dp"
         android:background="@drawable/outline"
-        android:paddingLeft="10dp"
-        android:paddingTop="2dp"
         android:hint="Age"
-        android:textColorHint="#2C2929"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
         android:textColor="@color/black"
+        android:textColorHint="#2C2929"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.272" />
 
     <EditText
         android:layout_width="304dp"
         android:layout_height="64dp"
         android:background="@drawable/outline"
+        android:hint="Gender"
         android:paddingLeft="10dp"
         android:paddingTop="2dp"
-        android:hint="Gender"
-        android:textColorHint="#2C2929"
         android:textColor="@color/black"
+        android:textColorHint="#2C2929"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.424" />
+        app:layout_constraintVertical_bias="0.415" />
 
     <EditText
         android:layout_width="304dp"
@@ -100,34 +88,34 @@
         android:id="@+id/textView5"
         android:layout_width="304dp"
         android:layout_height="64dp"
-        android:textColorHint="#2C2929"
         android:background="@drawable/outline"
+        android:hint="Smoking level"
         android:paddingLeft="10dp"
         android:paddingTop="2dp"
-        android:hint="Smoking level"
         android:textColor="@color/black"
+        android:textColorHint="#2C2929"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.685" />
+        app:layout_constraintVertical_bias="0.698" />
 
     <EditText
         android:layout_width="304dp"
         android:layout_height="64dp"
-        android:textColorHint="#2C2929"
         android:background="@drawable/outline"
+        android:hint="Hypnotics"
         android:paddingLeft="10dp"
         android:paddingTop="2dp"
-        android:hint="Hypnotics"
         android:textColor="@color/black"
+        android:textColorHint="#2C2929"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799" />
+        app:layout_constraintVertical_bias="0.833" />
 
     <Button
         android:layout_width="184dp"
